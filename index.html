@@ -6,9 +6,15 @@
     <title>Экотрип</title>
     <link rel="shortcut icon" href="/travels/assets/logo.f4ccee66.svg" type="image/svg">
     
-    <link rel="stylesheet" href="/travels/assets/style.1bd0b2b0.css">
+    <link rel="stylesheet" href="/travels/assets/style.a5641921.css">
   </head>
   <body class="overflow-x-hidden bg-gray-bgc">
+    <div>
+      масштаб: <br>
+      <input type="text" id="scale" disabled class="text-black" />
+      <button id="scale-up" class="uppercase py-4 px-10 tracking-wider font-bold text-base text-primary-green border border-primary-green transition hover:bg-primary-green hover:text-white" >побольше</button>
+      <button id="scale-down" class="uppercase py-4 px-10 tracking-wider font-bold text-base text-primary-green border border-primary-green transition hover:bg-primary-green hover:text-white">поменьше</button>
+    </div>
     <header class="bg-header-background bg-cover pt-18 pb-106">
       <div class="container relative mx-auto">
         <nav class="flex flex-row items-start mb-48">
@@ -458,11 +464,23 @@
     <script>
       
       const scale = document.getElementById('scale');
-      scale.value = 16;
-      scale.oninput = (e) => {
-        const html = document.querySelector("html");
-        html.style.fontSize = e.target.value + "px";
-      } 
+      const root = document.querySelector(':root');
+      const btnUp = document.getElementById('scale-up');
+      const btnDown = document.getElementById('scale-down');
+      let fz = 12.85;
+      const changeFz = () => {
+        root.style.fontSize = fz + "px";
+        scale.value = root.style.fontSize;
+      }
+      changeFz();
+      btnUp.onclick = () => {
+        fz += 0.02;
+        changeFz();
+      }
+      btnDown.onclick = () => {
+        fz -= 0.02;
+        changeFz();
+      }
 
     </script>
   </body>

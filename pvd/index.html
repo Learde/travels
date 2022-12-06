@@ -1,409 +1,846 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Экотрип | Походы</title>
-    <link rel="shortcut icon" href="/travels/assets/logo.f4ccee66.svg" type="image/svg">
-    
-    <link rel="stylesheet" href="/travels/assets/style.a6e8468d.css">
-  </head>
-  <body class="overflow-x-hidden bg-gray-bgc">
-    <header class="bg-header-background bg-cover pt-18 pb-106">
-      <div class="container relative mx-auto">
-        <nav class="flex flex-row items-start mb-48">
-          <a href="../" class="flex flex-row">
-            <img src="/travels/assets/logo.f4ccee66.svg" class="w-[2.5rem] h-auto self-end mb-1" />
-            <span class="uppercase font-bold text-[0.65rem] ml-4 leading-relaxed">
-              <span class="text-lg">
-                Экотрип
-              </span>
-              <br>
-              Походы Сочи
-            </span>
-          </a>
-          <a href="./" class="ml-auto uppercase font-bold text-lg pt-1">
-            Походы
-          </a>
-          <a href="#" class="ml-14 uppercase font-bold text-lg pt-1">
-            Каньонинг
-          </a>
-          <a href="../speleo/" class="ml-14 uppercase font-bold text-lg pt-1">
-            Спелеотуризм
-          </a>
-          <a href="#" class="ml-14 uppercase font-bold text-lg pt-1">
-            Места
-          </a>
-          <a href="#" class="ml-14 uppercase font-bold text-lg pt-1">
-            О нас
-          </a>
-        </nav>
+<html lang="ru" class="lg:text-[10px] lg2:text-[8px] sm:text-[11px]">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Экотрип | Походы</title>
+        <link
+            rel="shortcut icon"
+            href="/travels/assets/logo.f4ccee66.svg"
+            type="image/svg"
+        />
+        
+      <link rel="stylesheet" href="/travels/assets/style.6590a07c.css">
+    </head>
+    <body class="overflow-x-hidden bg-gray-bgc">
+        <header class="bg-header-background bg-cover pt-18 pb-106">
+            <div class="container relative mx-auto">
+                <nav class="flex flex-row items-start mb-48">
+                    <a href="../" class="flex flex-row">
+                        <img
+                            src="/travels/assets/logo.f4ccee66.svg"
+                            class="sm:w-[2.7rem] w-[2.5rem] h-auto self-end mb-1"
+                        />
+                        <span
+                            class="uppercase font-bold text-[0.65rem] ml-4 leading-relaxed"
+                        >
+                            <span class="text-lg"> Экотрип </span>
+                            <br />
+                            Походы Сочи
+                        </span>
+                    </a>
+                    <a
+                        href="./"
+                        class="sm:hidden ml-auto uppercase font-bold text-lg pt-1"
+                    >
+                        Походы
+                    </a>
+                    <a
+                        href="#"
+                        class="sm:hidden ml-14 uppercase font-bold text-lg pt-1"
+                    >
+                        Каньонинг
+                    </a>
+                    <a
+                        href="../speleo/"
+                        class="sm:hidden ml-14 uppercase font-bold text-lg pt-1"
+                    >
+                        Спелеотуризм
+                    </a>
+                    <a
+                        href="#"
+                        class="sm:hidden ml-14 uppercase font-bold text-lg pt-1"
+                    >
+                        Места
+                    </a>
+                    <a
+                        href="#"
+                        class="sm:hidden ml-14 uppercase font-bold text-lg pt-1"
+                    >
+                        О нас
+                    </a>
+                </nav>
 
-        <h1 class="font-bold text-5xl tracking-wider uppercase leading-tight mb-8">Однодневные походы по <br> &mdash; горам и лесам Сочи</h1>
-        <p class="font-bold text-2xl mb-20 tracking-[1.2px]">Приключения по лучшим природным местам Большого Сочи</p>
-
-        <button class="uppercase py-5.5 px-15 tracking-wider font-bold text-lg text-primary-green border border-primary-green transition-all shadow-none hover:shadow-btn-light">
-          Подобрать поход
-        </button>
-
-        <div class="flex flex-row items-center uppercase font-bold text-base absolute right-12 top-1/2 rotate-90 origin-top-right translate-y-86">
-          Подпишись 
-          <div class="w-48 h-[1px] bg-white mx-5"></div>
-          <img src="/travels/assets/tg.b42c100a.svg" class="w-4 h-auto mr-5 -rotate-90" />
-          <img src="/travels/assets/instagram.8b55ce1c.svg" class="w-4 h-auto mr-5 -rotate-90" />
-          <img src="/travels/assets/vk.1d5bd377.svg" class="w-4 h-auto -rotate-90" />
-        </div>
-      </div>
-    </header>
-    <section class="container -mb-7">
-      <div class="relative bottom-44">
-        <h4 class="font-bold text-3xl mb-8">Туры в пещеры Большого Сочи</h4>
-        <p class="text-xl leading-more-loose">Мы не просто эксплуатируем популярные Сочи, а создаем авторские маршурты и<br> показываем места, о которых не знают большинство туристов!</p>
-      </div>
-    </section>
-    <section class="container">
-        <div class="flex flex-row mb-48">
-            <div>
-               <div class="w-170 h-full bg-[#D9D9D9]"></div> 
-            </div>
-            <div class="h-full flex flex-col gap-y-12 justify-center self-center ml-8 mr-16 shrink-0">
-                <img src="/travels/assets/up-arrow.c7b40ec2.svg" class="w-6 h-auto hover:cursor-pointer" />
-                <img src="/travels/assets/bottom-arrow.feebaa65.svg" class="w-6 h-auto hover:cursor-pointer" />
-            </div>
-            <div>
-                <h5 class="font-['Xtreem_2_Personal_Use'] text-shadow text-5.5xl text-primary-green mb-6">Изучай горы изнутри!</h5>
-                <h4 class="font-bold text-xl mb-8 leading-more-loose">
-                    Нетуристическая Воронцовская пещера
-                </h4>
-                <p class="leading-extra-loose mb-11">
-                    — Приглашаю отвлечься ненадолго от курортной приморской суеты и провести день в царстве живописных водопадов, величественных скал, поросших мхом ущелий и горных рек. Во время похода я не дам вам заскучать и расскажу об особенностях кавказской природы, местных обычаях и своеобразии южного менталитета!
+                <h1
+                    class="sm:text-3.5xl sm:mb-16 sm:leading-relaxed font-bold text-5xl tracking-wider uppercase leading-tight mb-8"
+                >
+                    Однодневные походы по <br class="sm:hidden" />
+                    <span class="sm:hidden">&mdash;</span> горам и лесам Сочи
+                </h1>
+                <p
+                    class="sm:text-lg sm:mb-14 font-bold text-2xl mb-20 tracking-[1.2px]"
+                >
+                    Приключения по лучшим природным местам Большого Сочи
                 </p>
-                <div class="flex flex-row gap-x-16 items-center">
-                    <p class="text-lg">// <span class="font-bold">Стоимость от 2.500 руб!</span></p>
-                    <div class="flex flex-row gap-5">
-                        <img src="/travels/assets/clock.95d204c0.svg" class="w-7 h-7 mt-1">
-                        <span class="text-base">
-                        <span class="text-primary-green font-bold">Тайминг</span><br>
-                        6 часов
-                        </span>
-                    </div>
-                    <div class="flex flex-row gap-5">
-                        <img src="/travels/assets/map.1d8ba286.svg" class="w-7 h-7 mt-1">
-                        <span class="text-base">
-                        <span class="text-primary-green font-bold">Сложность</span><br>
-                        Средне
-                        </span>
-                    </div>
+
+                <button
+                    class="uppercase py-5.5 px-15 tracking-wider font-bold text-lg text-primary-green border border-primary-green transition-all shadow-none hover:shadow-btn-light"
+                >
+                    Подобрать поход
+                </button>
+
+                <div
+                    class="sm:hidden flex flex-row items-center uppercase font-bold text-base absolute right-12 top-1/2 rotate-90 origin-top-right translate-y-86"
+                >
+                    Подпишись
+                    <div class="w-48 h-[1px] bg-white mx-5"></div>
+                    <img
+                        src="/travels/assets/tg.b42c100a.svg"
+                        class="w-4 h-auto mr-5 -rotate-90"
+                    />
+                    <img
+                        src="/travels/assets/instagram.8b55ce1c.svg"
+                        class="w-4 h-auto mr-5 -rotate-90"
+                    />
+                    <img
+                        src="/travels/assets/vk.1d5bd377.svg"
+                        class="w-4 h-auto -rotate-90"
+                    />
                 </div>
             </div>
-        </div>
-
-        <div class="flex flex-row mb-48">
-            <div>
-                <h5 class="font-['Xtreem_2_Personal_Use'] text-shadow text-5.5xl text-primary-green mb-6">Изучай горы изнутри!</h5>
-                <h4 class="font-bold text-xl mb-8 leading-more-loose">
-                    Нетуристическая Воронцовская пещера
+        </header>
+        <section class="sm:-mb-18 container -mb-7">
+            <div class="relative bottom-44">
+                <h4
+                    class="sm:text-2xl sm:leading-loose sm:mb-6 font-bold text-3xl mb-8"
+                >
+                    Туры в пещеры Большого Сочи
                 </h4>
-                <p class="leading-extra-loose mb-11">
-                    — Приглашаю отвлечься ненадолго от курортной приморской суеты и провести день в царстве живописных водопадов, величественных скал, поросших мхом ущелий и горных рек. Во время похода я не дам вам заскучать и расскажу об особенностях кавказской природы, местных обычаях и своеобразии южного менталитета!
+                <p
+                    class="sm:leading-extra2-loose sm:lg text-xl leading-more-loose"
+                >
+                    Мы не просто эксплуатируем популярные Сочи, а создаем
+                    авторские маршруты и<br />
+                    показываем места, о которых не знают большинство туристов!
                 </p>
-                <div class="flex flex-row gap-x-16 items-center">
-                    <p class="text-lg">// <span class="font-bold">Стоимость от 2.500 руб!</span></p>
-                    <div class="flex flex-row gap-5">
-                        <img src="/travels/assets/clock.95d204c0.svg" class="w-7 h-7 mt-1">
-                        <span class="text-base">
-                        <span class="text-primary-green font-bold">Тайминг</span><br>
-                        6 часов
-                        </span>
-                    </div>
-                    <div class="flex flex-row gap-5">
-                        <img src="/travels/assets/map.1d8ba286.svg" class="w-7 h-7 mt-1">
-                        <span class="text-base">
-                        <span class="text-primary-green font-bold">Сложность</span><br>
-                        Средне
-                        </span>
-                    </div>
-                </div>
             </div>
-            <div class="h-full flex flex-col gap-y-12 justify-center self-center mr-8 ml-16 shrink-0">
-                <img src="/travels/assets/up-arrow.c7b40ec2.svg" class="w-6 h-auto hover:cursor-pointer" />
-                <img src="/travels/assets/bottom-arrow.feebaa65.svg" class="w-6 h-auto hover:cursor-pointer" />
-            </div>
-            <div>
-                <div class="w-170 h-full bg-[#D9D9D9]"></div> 
-             </div>
-        </div>
-
-        <div class="flex flex-row mb-48">
-            <div>
-               <div class="w-170 h-full bg-[#D9D9D9]"></div> 
-            </div>
-            <div class="h-full flex flex-col gap-y-12 justify-center self-center ml-8 mr-16 shrink-0">
-                <img src="/travels/assets/up-arrow.c7b40ec2.svg" class="w-6 h-auto hover:cursor-pointer" />
-                <img src="/travels/assets/bottom-arrow.feebaa65.svg" class="w-6 h-auto hover:cursor-pointer" />
-            </div>
-            <div>
-                <h5 class="font-['Xtreem_2_Personal_Use'] text-shadow text-5.5xl text-primary-green mb-6">Изучай горы изнутри!</h5>
-                <h4 class="font-bold text-xl mb-8 leading-more-loose">
-                    Нетуристическая Воронцовская пещера
-                </h4>
-                <p class="leading-extra-loose mb-11">
-                    — Приглашаю отвлечься ненадолго от курортной приморской суеты и провести день в царстве живописных водопадов, величественных скал, поросших мхом ущелий и горных рек. Во время похода я не дам вам заскучать и расскажу об особенностях кавказской природы, местных обычаях и своеобразии южного менталитета!
-                </p>
-                <div class="flex flex-row gap-x-16 items-center">
-                    <p class="text-lg">// <span class="font-bold">Стоимость от 2.500 руб!</span></p>
-                    <div class="flex flex-row gap-5">
-                        <img src="/travels/assets/clock.95d204c0.svg" class="w-7 h-7 mt-1">
-                        <span class="text-base">
-                        <span class="text-primary-green font-bold">Тайминг</span><br>
-                        6 часов
-                        </span>
-                    </div>
-                    <div class="flex flex-row gap-5">
-                        <img src="/travels/assets/map.1d8ba286.svg" class="w-7 h-7 mt-1">
-                        <span class="text-base">
-                            <span class="text-primary-green font-bold">Сложность</span><br>
-                            Средне
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="flex flex-row mb-48">
-            <div>
-                <h5 class="font-['Xtreem_2_Personal_Use'] text-shadow text-5.5xl text-primary-green mb-6">Изучай горы изнутри!</h5>
-                <h4 class="font-bold text-xl mb-8 leading-more-loose">
-                    Нетуристическая Воронцовская пещера
-                </h4>
-                <p class="leading-extra-loose mb-11">
-                    — Приглашаю отвлечься ненадолго от курортной приморской суеты и провести день в царстве живописных водопадов, величественных скал, поросших мхом ущелий и горных рек. Во время похода я не дам вам заскучать и расскажу об особенностях кавказской природы, местных обычаях и своеобразии южного менталитета!
-                </p>
-                <div class="flex flex-row gap-x-16 items-center">
-                    <p class="text-lg">// <span class="font-bold">Стоимость от 2.500 руб!</span></p>
-                    <div class="flex flex-row gap-5">
-                        <img src="/travels/assets/clock.95d204c0.svg" class="w-7 h-7 mt-1">
-                        <span class="text-base">
-                        <span class="text-primary-green font-bold">Тайминг</span><br>
-                        6 часов
-                        </span>
-                    </div>
-                    <div class="flex flex-row gap-5">
-                        <img src="/travels/assets/map.1d8ba286.svg" class="w-7 h-7 mt-1">
-                        <span class="text-base">
-                        <span class="text-primary-green font-bold">Сложность</span><br>
-                        Средне
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="h-full flex flex-col gap-y-12 justify-center self-center mr-8 ml-16 shrink-0">
-                <img src="/travels/assets/up-arrow.c7b40ec2.svg" class="w-6 h-auto hover:cursor-pointer" />
-                <img src="/travels/assets/bottom-arrow.feebaa65.svg" class="w-6 h-auto hover:cursor-pointer" />
-            </div>
-            <div>
-                <div class="w-170 h-full bg-[#D9D9D9]"></div> 
-             </div>
-        </div>
-    </section>
-
-    <section class="bg-tours-background bg-center">
-        <div class="container pt-28 pb-32">
-            <h4 class="font-bold text-3xl mb-18">Туры в пещеры Большого Сочи</h4>
-            <div class="flex flex-row gap-x-40 mb-20">
+        </section>
+        <section class="container">
+            <div class="sm:flex-col sm:gap-y-10 sm:mb-28 flex flex-row mb-48">
                 <div>
-                    <div class="w-8 h-8 bg-[#D9D9D9] rounded-full mb-6"></div>
-                    <h4 class="font-bold text-xl mb-4 leading-more-loose">
-                        Трансфер
-                    </h4>
-                    <p class="leading-extra-loose">
-                        Наша команда гидов состоит из сочинцев, которые впитали в себя историю и культуру Юга и Кавказа. Мы не пересказываем Википедию, а открываем факты, о которых знают только местные.
-                    </p>
+                    <div
+                        class="sm:w-full sm:h-68 w-170 h-full bg-[#D9D9D9] rounded-md"
+                    ></div>
+                </div>
+                <div
+                    class="sm:hidden h-full flex flex-col gap-y-12 justify-center self-center ml-8 mr-16 shrink-0"
+                >
+                    <img
+                        src="/travels/assets/up-arrow.c7b40ec2.svg"
+                        class="w-6 h-auto hover:cursor-pointer"
+                    />
+                    <img
+                        src="/travels/assets/bottom-arrow.feebaa65.svg"
+                        class="w-6 h-auto hover:cursor-pointer"
+                    />
                 </div>
                 <div>
-                    <div class="w-8 h-8 bg-[#D9D9D9] rounded-full mb-6"></div>
-                    <h4 class="font-bold text-xl mb-4 leading-more-loose">
-                        Прогулка по окресностям
-                    </h4>
-                    <p class="leading-extra-loose">
-                        Мы принципиально не проводим групповые походы. чтобы в походе не было растосторонних людей. Ваш поход будет состоять только из ваших друзей или семьи.
-                    </p>
-                </div>
-                <div>
-                    <div class="w-8 h-8 bg-[#D9D9D9] rounded-full mb-6"></div>
-                    <h4 class="font-bold text-xl mb-4 leading-more-loose">
-                        История Сочи
-                    </h4>
-                    <p class="leading-extra-loose">
-                        Спелеолог Олег знаток не только пещер, но и общей истории Сочи. Поэтому он расскажет вам удивительные факты о городе, о которых могут знать только сами сочинцы!
-                    </p>
-                </div>
-            </div>
-            <h4 class="font-bold text-3xl mb-9">— «Если у человека появляется возможность вести необычную жизнь он не имеет права от неё отказываться»</h4>
-            <h5 class="text-right font-['Xtreem_2_Personal_Use'] text-shadow text-6xl text-primary-green">Жак Ив Кусто</h5>
-        </div>
-    </section>
-
-    <section class="container py-28">
-        <h4 class="font-bold text-3xl mb-18">Впечатления туристов о спелеотурах</h4>
-        <div class="grid grid-cols-2 gap-x-40 gap-y-18 mb-28">
-            <div class="flex flex-row">
-                <div class="mr-6">
-                    <div class="w-16 h-16 bg-[#D9D9D9] rounded-full mb-6"></div>
-                </div>
-                <div>
-                    <h4 class="font-bold text-xl mb-3 leading-more-loose">
-                        Михаил
-                    </h4>
-                    <p class="leading-extra-loose">
-                        Наша команда гидов состоит из сочинцев, которые впитали в себя историю и культуру Юга и Кавказа. Мы не пересказываем Википедию, а открываем факты, о которых знают только местные.
-                    </p>
-                </div>
-            </div>
-            <div class="flex flex-row">
-                <div class="mr-6">
-                    <div class="w-16 h-16 bg-[#D9D9D9] rounded-full mb-6"></div>
-                </div>
-                <div>
-                    <h4 class="font-bold text-xl mb-3 leading-more-loose">
-                        Михаил
-                    </h4>
-                    <p class="leading-extra-loose">
-                        Наша команда гидов состоит из сочинцев, которые впитали в себя историю и культуру Юга и Кавказа. Мы не пересказываем Википедию, а открываем факты, о которых знают только местные.
-                    </p>
-                </div>
-            </div>
-            <div class="flex flex-row">
-                <div class="mr-6">
-                    <div class="w-16 h-16 bg-[#D9D9D9] rounded-full mb-6"></div>
-                </div>
-                <div>
-                    <h4 class="font-bold text-xl mb-3 leading-more-loose">
-                        Михаил
-                    </h4>
-                    <p class="leading-extra-loose">
-                        Наша команда гидов состоит из сочинцев, которые впитали в себя историю и культуру Юга и Кавказа. Мы не пересказываем Википедию, а открываем факты, о которых знают только местные.
-                    </p>
-                </div>
-            </div>
-            <div class="flex flex-row">
-                <div class="mr-6">
-                    <div class="w-16 h-16 bg-[#D9D9D9] rounded-full mb-6"></div>
-                </div>
-                <div>
-                    <h4 class="font-bold text-xl mb-3 leading-more-loose">
-                        Михаил
-                    </h4>
-                    <p class="leading-extra-loose">
-                        Наша команда гидов состоит из сочинцев, которые впитали в себя историю и культуру Юга и Кавказа. Мы не пересказываем Википедию, а открываем факты, о которых знают только местные.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="text-center">
-            <button class="uppercase py-4 px-24 font-bold tracking-wider text-sm text-primary-green border border-primary-green transition-all shadow-none hover:shadow-btn-light">
-                Посмотреть все +100 отзывов
-            </button>
-        </div>
-    </section>
-
-    <section class="bg-black py-32">
-        <div class="container">
-            <h4 class="font-bold text-3xl mb-24">Маршурты из других категорий, которые могут быть интересны</h4>
-            <div class="grid grid-cols-4 gap-x-12">
-                <div>
-                    <div class="w-full h-112 bg-[#D9D9D9] mb-4"></div> 
-                    <h6 class="text-base font-bold mb-3 text-primary-green">Каньоинг</h6>
-                    <h4 class="font-bold text-xl mb-3 leading-more-loose">
+                    <h5
+                        class="font-['Xtreem_2_Personal_Use'] text-5.5xl text-primary-green mb-6 text-shadow"
+                    >
+                        Изучай горы изнутри!
+                    </h5>
+                    <h4
+                        class="sm:text-2xl sm:leading-loose sm:mb-6 font-bold text-xl mb-4 leading-more-loose"
+                    >
                         Нетуристическая Воронцовская пещера
                     </h4>
-                </div>
-                <div>
-                    <div class="w-full h-112 bg-[#D9D9D9] mb-4"></div> 
-                    <h6 class="text-base font-bold mb-3 text-primary-green">Многодневные походы</h6>
-                    <h4 class="font-bold text-xl mb-3 leading-more-loose">
-                        Сухой и Мокрый каньон реки Псахо
-                    </h4>
-                </div>
-                <div>
-                    <div class="w-full h-112 bg-[#D9D9D9] mb-4"></div> 
-                    <h6 class="text-base font-bold mb-3 text-primary-green">Спелеотур</h6>
-                    <h4 class="font-bold text-xl mb-3 leading-more-loose">
-                        Ажекский экопарк и водопады
-                    </h4>
-                </div>
-                <div>
-                    <div class="w-full h-112 bg-[#D9D9D9] mb-4"></div> 
-                    <h6 class="text-base font-bold mb-3 text-primary-green">Походы на конях</h6>
-                    <h4 class="font-bold text-xl mb-3 leading-more-loose">
-                        Агурское ущелье и Орлиннве скалы
-                    </h4>
+                    <p
+                        class="sm:leading-extra2-loose sm:text-base sm:mb-10 leading-extra-loose mb-11"
+                    >
+                        <span class="sm:hidden">—</span> Приглашаю отвлечься
+                        ненадолго от курортной приморской суеты и провести день
+                        в царстве живописных водопадов, величественных скал,
+                        поросших мхом ущелий и горных рек. Во время похода я не
+                        дам вам заскучать и расскажу об особенностях кавказской
+                        природы, местных обычаях и своеобразии южного
+                        менталитета!
+                    </p>
+                    <div
+                        class="sm:flex-wrap flex flex-row gap-x-16 items-center"
+                    >
+                        <div class="flex flex-row gap-5">
+                            <img
+                                src="/travels/assets/clock.95d204c0.svg"
+                                class="sm:w-9 sm:h-9 w-7 h-7 mt-1"
+                            />
+                            <span class="sm:text-xl text-base">
+                                <span class="text-primary-green font-bold"
+                                    >Тайминг</span
+                                ><br />
+                                6 часов
+                            </span>
+                        </div>
+                        <div class="flex flex-row gap-5">
+                            <img
+                                src="/travels/assets/map.1d8ba286.svg"
+                                class="sm:w-9 sm:h-9 w-7 h-7 mt-1"
+                            />
+                            <span class="sm:text-xl text-base">
+                                <span class="text-primary-green font-bold"
+                                    >Сложность</span
+                                ><br />
+                                Средне
+                            </span>
+                        </div>
+                        <div class="sm:w-full sm:mt-12">
+                            <button
+                                class="sm:w-full self-center whitespace-nowrap uppercase py-5 px-16 font-bold text-lg text-primary-green border border-primary-green transition-all shadow-none hover:shadow-btn-light"
+                            >
+                                Подробности тура
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <footer class="bg-gray-2-bgc py-20">
-      <div class="container">
-        <div class="flex flex-row justify-between">
-          <div class="flex flex-col max-w-xs">
-            <a href="#" class="flex flex-row mb-9">
-              <img src="/travels/assets/logo.f4ccee66.svg" class="w-[2.5rem] h-auto self-end mb-1" />
-              <span class="uppercase font-bold text-[0.65rem] ml-4 leading-relaxed">
-                <span class="text-lg">
-                  Экотрип
-                </span>
-                <br>
-                Походы Сочи
-              </span>
-            </a>
-            <p class="text-base leading-loose mb-14">
-              Экотрип - поставщик ярких впечатления на природе Сочи, Адлера и Красной Поляны!
-            </p>
-            <a class="text-base mb-4" href="#">Отказ от ответственности</a>
-            <a class="text-base" href="#">Политика конфиденциальности</a>
-          </div>
-          <div>
-            <h6 class="text-lg text-primary-green font-bold uppercase mb-[3.65rem]">Подписывайся!</h6>
-            <a href="#" class="flex flex-row gap-x-7 text-base items-center mb-10"><img src="/travels/assets/vk.1d5bd377.svg" class="h-6 w-auto relative top-1" />Вконтакте</a>
-            <a href="#" class="flex flex-row gap-x-7 text-base items-center mb-10"><img src="/travels/assets/tg.b42c100a.svg" class="h-6 w-auto" />Телеграм</a>
-            <a href="#" class="flex flex-row gap-x-7 text-base items-center mb-10"><img src="/travels/assets/instagram.8b55ce1c.svg" class="h-6 w-auto" />Инстаграм</a>
-          </div>
-          <div>
-            <div class="flex flex-row flex-nowrap items-center gap-x-7 mb-[3.65rem]">
-              <h6 class="text-lg text-primary-green font-bold uppercase">Контакты</h6>
-              <div class="w-full bg-primary-green h-[1px]"></div>
+            <div
+                class="sm:flex-col-reverse sm:gap-y-10 sm:mb-28 flex flex-row mb-48"
+            >
+                <div>
+                    <h5
+                        class="font-['Xtreem_2_Personal_Use'] text-5.5xl text-primary-green mb-6 text-shadow"
+                    >
+                        Изучай горы изнутри!
+                    </h5>
+                    <h4
+                        class="sm:text-2xl sm:leading-loose sm:mb-6 font-bold text-xl mb-4 leading-more-loose"
+                    >
+                        Нетуристическая Воронцовская пещера
+                    </h4>
+                    <p
+                        class="sm:leading-extra2-loose sm:text-base sm:mb-10 leading-extra-loose mb-11"
+                    >
+                        <span class="sm:hidden">—</span> Приглашаю отвлечься
+                        ненадолго от курортной приморской суеты и провести день
+                        в царстве живописных водопадов, величественных скал,
+                        поросших мхом ущелий и горных рек. Во время похода я не
+                        дам вам заскучать и расскажу об особенностях кавказской
+                        природы, местных обычаях и своеобразии южного
+                        менталитета!
+                    </p>
+                    <div
+                        class="sm:flex-wrap flex flex-row gap-x-16 items-center"
+                    >
+                        <div class="flex flex-row gap-5">
+                            <img
+                                src="/travels/assets/clock.95d204c0.svg"
+                                class="sm:w-9 sm:h-9 w-7 h-7 mt-1"
+                            />
+                            <span class="text-base">
+                                <span
+                                    class="sm:text-xl text-primary-green font-bold"
+                                    >Тайминг</span
+                                ><br />
+                                6 часов
+                            </span>
+                        </div>
+                        <div class="flex flex-row gap-5">
+                            <img
+                                src="/travels/assets/map.1d8ba286.svg"
+                                class="sm:w-9 sm:h-9 w-7 h-7 mt-1"
+                            />
+                            <span class="text-base">
+                                <span
+                                    class="sm:text-xl text-primary-green font-bold"
+                                    >Сложность</span
+                                ><br />
+                                Средне
+                            </span>
+                        </div>
+                        <div class="sm:w-full sm:mt-12">
+                            <button
+                                class="sm:w-full self-center whitespace-nowrap uppercase py-5 px-16 font-bold text-lg text-primary-green border border-primary-green transition-all shadow-none hover:shadow-btn-light"
+                            >
+                                Подробности тура
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="sm:hidden h-full flex flex-col gap-y-12 justify-center self-center mr-8 ml-16 shrink-0"
+                >
+                    <img
+                        src="/travels/assets/up-arrow.c7b40ec2.svg"
+                        class="w-6 h-auto hover:cursor-pointer"
+                    />
+                    <img
+                        src="/travels/assets/bottom-arrow.feebaa65.svg"
+                        class="w-6 h-auto hover:cursor-pointer"
+                    />
+                </div>
+                <div>
+                    <div
+                        class="sm:w-full sm:h-68 w-170 h-full bg-[#D9D9D9] rounded-md"
+                    ></div>
+                </div>
             </div>
-            <div class="flex flex-row">
-              <div>
-                <div class="flex flex-row mb-14">
-                  <div class="bg-white h-5 w-5 mr-6"></div>
-                  <div>
-                    <a class="block font-bold text-base mb-6" href="tel:+79996550090">+7 (999) 655-00-90</a>
-                    <a class="block font-bold text-base" href="tel:+79996550090">+7 (999) 655-00-90</a>
-                  </div>
+
+            <div class="sm:flex-col sm:gap-y-10 sm:mb-28 flex flex-row mb-48">
+                <div>
+                    <div
+                        class="sm:w-full sm:h-68 w-170 h-full bg-[#D9D9D9] rounded-md"
+                    ></div>
                 </div>
-                <div class="flex flex-row">
-                  <div class="bg-white h-5 w-5 mr-6"></div>
-                    <a class="block text-base mb-6" href="mailto:ecotrip@mail.ru">ecotrip@mail.ru</a>
+                <div
+                    class="sm:hidden h-full flex flex-col gap-y-12 justify-center self-center ml-8 mr-16 shrink-0"
+                >
+                    <img
+                        src="/travels/assets/up-arrow.c7b40ec2.svg"
+                        class="w-6 h-auto hover:cursor-pointer"
+                    />
+                    <img
+                        src="/travels/assets/bottom-arrow.feebaa65.svg"
+                        class="w-6 h-auto hover:cursor-pointer"
+                    />
                 </div>
-              </div>
-              <div class="max-w-[18rem] ml-24">
-                <p class="text-base leading-loose">Мы можем сами связаться с вами! Напишите номер телефона и мы позвоним вам настолько скоро, насколько сможем!</p>
-                <div class="w-full mt-6 relative">
-                  <input class="block w-full bg-gray-2-bgc border text-base px-5 py-2 placeholder:text-gray-300 font-normal" placeholder="введите номер" type="text" />
-                  <img src="/travels/assets/arrow.d8ce2563.svg" class="hover:cursor-pointer w-6 h-auto absolute right-4 bottom-1/2 translate-y-1/2" />
+                <div>
+                    <h5
+                        class="font-['Xtreem_2_Personal_Use'] text-5.5xl text-primary-green mb-6 text-shadow"
+                    >
+                        Изучай горы изнутри!
+                    </h5>
+                    <h4
+                        class="sm:text-2xl sm:leading-loose sm:mb-6 font-bold text-xl mb-4 leading-more-loose"
+                    >
+                        Нетуристическая Воронцовская пещера
+                    </h4>
+                    <p
+                        class="sm:leading-extra2-loose sm:text-base sm:mb-10 leading-extra-loose mb-11"
+                    >
+                        <span class="sm:hidden">—</span> Приглашаю отвлечься
+                        ненадолго от курортной приморской суеты и провести день
+                        в царстве живописных водопадов, величественных скал,
+                        поросших мхом ущелий и горных рек. Во время похода я не
+                        дам вам заскучать и расскажу об особенностях кавказской
+                        природы, местных обычаях и своеобразии южного
+                        менталитета!
+                    </p>
+                    <div
+                        class="sm:flex-wrap flex flex-row gap-x-16 items-center"
+                    >
+                        <div class="flex flex-row gap-5">
+                            <img
+                                src="/travels/assets/clock.95d204c0.svg"
+                                class="sm:w-9 sm:h-9 w-7 h-7 mt-1"
+                            />
+                            <span class="sm:text-xl text-base">
+                                <span class="text-primary-green font-bold"
+                                    >Тайминг</span
+                                ><br />
+                                6 часов
+                            </span>
+                        </div>
+                        <div class="flex flex-row gap-5">
+                            <img
+                                src="/travels/assets/map.1d8ba286.svg"
+                                class="sm:w-9 sm:h-9 w-7 h-7 mt-1"
+                            />
+                            <span class="sm:text-xl text-base">
+                                <span class="text-primary-green font-bold"
+                                    >Сложность</span
+                                ><br />
+                                Средне
+                            </span>
+                        </div>
+                        <div class="sm:w-full sm:mt-12">
+                            <button
+                                class="sm:w-full self-center whitespace-nowrap uppercase py-5 px-16 font-bold text-lg text-primary-green border border-primary-green transition-all shadow-none hover:shadow-btn-light"
+                            >
+                                Подробности тура
+                            </button>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- <footer>
+
+            <div
+                class="sm:flex-col-reverse sm:gap-y-10 sm:mb-28 flex flex-row mb-48"
+            >
+                <div>
+                    <h5
+                        class="font-['Xtreem_2_Personal_Use'] text-5.5xl text-primary-green mb-6 text-shadow"
+                    >
+                        Изучай горы изнутри!
+                    </h5>
+                    <h4
+                        class="sm:text-2xl sm:leading-loose sm:mb-6 font-bold text-xl mb-4 leading-more-loose"
+                    >
+                        Нетуристическая Воронцовская пещера
+                    </h4>
+                    <p
+                        class="sm:leading-extra2-loose sm:text-base sm:mb-10 leading-extra-loose mb-11"
+                    >
+                        <span class="sm:hidden">—</span> Приглашаю отвлечься
+                        ненадолго от курортной приморской суеты и провести день
+                        в царстве живописных водопадов, величественных скал,
+                        поросших мхом ущелий и горных рек. Во время похода я не
+                        дам вам заскучать и расскажу об особенностях кавказской
+                        природы, местных обычаях и своеобразии южного
+                        менталитета!
+                    </p>
+                    <div
+                        class="sm:flex-wrap flex flex-row gap-x-16 items-center"
+                    >
+                        <div class="flex flex-row gap-5">
+                            <img
+                                src="/travels/assets/clock.95d204c0.svg"
+                                class="sm:w-9 sm:h-9 w-7 h-7 mt-1"
+                            />
+                            <span class="text-base">
+                                <span
+                                    class="sm:text-xl text-primary-green font-bold"
+                                    >Тайминг</span
+                                ><br />
+                                6 часов
+                            </span>
+                        </div>
+                        <div class="flex flex-row gap-5">
+                            <img
+                                src="/travels/assets/map.1d8ba286.svg"
+                                class="sm:w-9 sm:h-9 w-7 h-7 mt-1"
+                            />
+                            <span class="text-base">
+                                <span
+                                    class="sm:text-xl text-primary-green font-bold"
+                                    >Сложность</span
+                                ><br />
+                                Средне
+                            </span>
+                        </div>
+                        <div class="sm:w-full sm:mt-12">
+                            <button
+                                class="sm:w-full self-center whitespace-nowrap uppercase py-5 px-16 font-bold text-lg text-primary-green border border-primary-green transition-all shadow-none hover:shadow-btn-light"
+                            >
+                                Подробности тура
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="sm:hidden h-full flex flex-col gap-y-12 justify-center self-center mr-8 ml-16 shrink-0"
+                >
+                    <img
+                        src="/travels/assets/up-arrow.c7b40ec2.svg"
+                        class="w-6 h-auto hover:cursor-pointer"
+                    />
+                    <img
+                        src="/travels/assets/bottom-arrow.feebaa65.svg"
+                        class="w-6 h-auto hover:cursor-pointer"
+                    />
+                </div>
+                <div>
+                    <div
+                        class="sm:w-full sm:h-68 w-170 h-full bg-[#D9D9D9] rounded-md"
+                    ></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-tours-background bg-center">
+            <div class="sm:py-24 container pt-28 pb-32">
+                <h4
+                    class="sm:text-2.25xl sm:leading-relaxed sm:mb-12 font-bold text-3xl mb-18"
+                >
+                    Туры в пещеры Большого Сочи
+                </h4>
+                <div
+                    class="sm:flex-col sm:gap-y-14 flex flex-row gap-x-40 mb-20"
+                >
+                    <div>
+                        <div
+                            class="sm:hidden w-8 h-8 bg-[#D9D9D9] rounded-full mb-6"
+                        ></div>
+                        <h4
+                            class="sm:text-2xl font-bold text-xl mb-4 leading-more-loose"
+                        >
+                            Трансфер
+                        </h4>
+                        <p
+                            class="sm:leading-extra2-loose sm:text-base leading-extra-loose"
+                        >
+                            Наша команда гидов состоит из сочинцев, которые
+                            впитали в себя историю и культуру Юга и Кавказа. Мы
+                            не пересказываем Википедию, а открываем факты, о
+                            которых знают только местные.
+                        </p>
+                    </div>
+                    <div>
+                        <div
+                            class="sm:hidden w-8 h-8 bg-[#D9D9D9] rounded-full mb-6"
+                        ></div>
+                        <h4
+                            class="sm:text-2xl font-bold text-xl mb-4 leading-more-loose"
+                        >
+                            Прогулка по окресностям
+                        </h4>
+                        <p
+                            class="sm:leading-extra2-loose sm:text-base leading-extra-loose"
+                        >
+                            Мы принципиально не проводим групповые походы. чтобы
+                            в походе не было растосторонних людей. Ваш поход
+                            будет состоять только из ваших друзей или семьи.
+                        </p>
+                    </div>
+                    <div>
+                        <div
+                            class="sm:hidden w-8 h-8 bg-[#D9D9D9] rounded-full mb-6"
+                        ></div>
+                        <h4
+                            class="sm:text-2xl font-bold text-xl mb-4 leading-more-loose"
+                        >
+                            История Сочи
+                        </h4>
+                        <p
+                            class="sm:leading-extra2-loose sm:text-base leading-extra-loose"
+                        >
+                            Спелеолог Олег знаток не только пещер, но и общей
+                            истории Сочи. Поэтому он расскажет вам удивительные
+                            факты о городе, о которых могут знать только сами
+                            сочинцы!
+                        </p>
+                    </div>
+                </div>
+                <h4
+                    class="sm:text-2.25xl sm:leading-extra-loose font-bold text-3xl mb-9"
+                >
+                    — «Если у человека появляется возможность вести необычную
+                    жизнь он не имеет права от неё отказываться»
+                </h4>
+                <h5
+                    class="text-right font-['Xtreem_2_Personal_Use'] text-6xl text-primary-green text-shadow"
+                >
+                    Жак Ив Кусто
+                </h5>
+            </div>
+        </section>
+
+        <section class="sm:py-24 container py-28">
+            <h4
+                class="sm:text-2.25xl sm:leading-relaxed sm:mb-18 font-bold text-3xl mb-18"
+            >
+                Впечатления туристов о спелеотурах
+            </h4>
+            <div
+                class="sm:grid-cols-1 sm:gap-y-24 sm:mb-18 grid grid-cols-2 gap-x-40 gap-y-18 mb-28"
+            >
+                <div class="sm:block flex flex-row">
+                    <div class="sm:float-left mr-6">
+                        <div
+                            class="sm:mb-0 w-16 h-16 bg-[#D9D9D9] rounded-full mb-6"
+                        ></div>
+                    </div>
+                    <div>
+                        <h4
+                            class="sm:text-2xl sm:mb-15 sm:mt-4 font-bold text-xl mb-3 leading-more-loose"
+                        >
+                            Михаил
+                        </h4>
+                        <p class="sm:block leading-extra-loose">
+                            Наша команда гидов состоит из сочинцев, которые
+                            впитали в себя историю и культуру Юга и Кавказа. Мы
+                            не пересказываем Википедию, а открываем факты, о
+                            которых знают только местные.
+                        </p>
+                    </div>
+                </div>
+                <div class="sm:block flex flex-row">
+                    <div class="sm:float-left mr-6">
+                        <div
+                            class="sm:mb-0 w-16 h-16 bg-[#D9D9D9] rounded-full mb-6"
+                        ></div>
+                    </div>
+                    <div>
+                        <h4
+                            class="sm:text-2xl sm:mb-15 sm:mt-4 font-bold text-xl mb-3 leading-more-loose"
+                        >
+                            Михаил
+                        </h4>
+                        <p class="sm:block leading-extra-loose">
+                            Наша команда гидов состоит из сочинцев, которые
+                            впитали в себя историю и культуру Юга и Кавказа. Мы
+                            не пересказываем Википедию, а открываем факты, о
+                            которых знают только местные.
+                        </p>
+                    </div>
+                </div>
+                <div class="sm:block flex flex-row">
+                    <div class="sm:float-left mr-6">
+                        <div
+                            class="sm:mb-0 w-16 h-16 bg-[#D9D9D9] rounded-full mb-6"
+                        ></div>
+                    </div>
+                    <div>
+                        <h4
+                            class="sm:text-2xl sm:mb-15 sm:mt-4 font-bold text-xl mb-3 leading-more-loose"
+                        >
+                            Михаил
+                        </h4>
+                        <p class="sm:block leading-extra-loose">
+                            Наша команда гидов состоит из сочинцев, которые
+                            впитали в себя историю и культуру Юга и Кавказа. Мы
+                            не пересказываем Википедию, а открываем факты, о
+                            которых знают только местные.
+                        </p>
+                    </div>
+                </div>
+                <div class="sm:block flex flex-row">
+                    <div class="sm:float-left mr-6">
+                        <div
+                            class="sm:mb-0 w-16 h-16 bg-[#D9D9D9] rounded-full mb-6"
+                        ></div>
+                    </div>
+                    <div>
+                        <h4
+                            class="sm:text-2xl sm:mb-15 sm:mt-4 font-bold text-xl mb-3 leading-more-loose"
+                        >
+                            Михаил
+                        </h4>
+                        <p class="sm:block leading-extra-loose">
+                            Наша команда гидов состоит из сочинцев, которые
+                            впитали в себя историю и культуру Юга и Кавказа. Мы
+                            не пересказываем Википедию, а открываем факты, о
+                            которых знают только местные.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button
+                    class="sm:w-full sm:text-xl sm:px-0 sm:py-5 uppercase py-4 px-24 font-bold tracking-wider text-sm text-primary-green border border-primary-green transition-all shadow-none hover:shadow-btn-light"
+                >
+                    Посмотреть все +100 отзывов
+                </button>
+            </div>
+        </section>
+
+        <section class="sm:py-24 bg-black py-32">
+            <div class="container">
+                <h4
+                    class="sm:text-2.25xl sm:leading-relaxed sm:mb-18 font-bold text-3xl mb-24"
+                >
+                    Маршруты из других категорий, которые могут быть интересны
+                </h4>
+                <div
+                    class="sm:grid-cols-2 sm:gap-y-18 grid grid-cols-4 gap-x-12"
+                >
+                    <div>
+                        <div
+                            class="sm:h-62 sm:mb-11 w-full h-112 bg-[#D9D9D9] mb-4 rounded-md"
+                        ></div>
+                        <h6
+                            class="sm:text-lg sm:mb-4 text-base font-bold mb-3 text-primary-green"
+                        >
+                            Каньоинг
+                        </h6>
+                        <h4
+                            class="sm:text-base font-bold text-xl mb-3 leading-more-loose"
+                        >
+                            Нетуристическая Воронцовская пещера
+                        </h4>
+                    </div>
+                    <div>
+                        <div
+                            class="sm:h-62 sm:mb-11 w-full h-112 bg-[#D9D9D9] mb-4 rounded-md"
+                        ></div>
+                        <h6
+                            class="sm:text-lg sm:mb-4 text-base font-bold mb-3 text-primary-green"
+                        >
+                            Многодневные походы
+                        </h6>
+                        <h4
+                            class="sm:text-base font-bold text-xl mb-3 leading-more-loose"
+                        >
+                            Сухой и Мокрый каньон реки Псахо
+                        </h4>
+                    </div>
+                    <div>
+                        <div
+                            class="sm:h-62 sm:mb-11 w-full h-112 bg-[#D9D9D9] mb-4 rounded-md"
+                        ></div>
+                        <h6
+                            class="sm:text-lg sm:mb-4 text-base font-bold mb-3 text-primary-green"
+                        >
+                            Спелеотур
+                        </h6>
+                        <h4
+                            class="sm:text-base font-bold text-xl mb-3 leading-more-loose"
+                        >
+                            Ажекский экопарк и водопады
+                        </h4>
+                    </div>
+                    <div>
+                        <div
+                            class="sm:h-62 sm:mb-11 w-full h-112 bg-[#D9D9D9] mb-4 rounded-md"
+                        ></div>
+                        <h6
+                            class="sm:text-lg sm:mb-4 text-base font-bold mb-3 text-primary-green"
+                        >
+                            Походы на конях
+                        </h6>
+                        <h4
+                            class="sm:text-base font-bold text-xl mb-3 leading-more-loose"
+                        >
+                            Агурское ущелье и Орлиннве скалы
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="sm:py-14 bg-gray-2-bgc py-20">
+            <div class="container">
+                <div class="sm:flex-col flex flex-row justify-between">
+                    <div class="sm:max-w-none flex flex-col max-w-xs">
+                        <a href="./" class="flex flex-row mb-9">
+                            <img
+                                src="/travels/assets/logo.f4ccee66.svg"
+                                class="sm:w-[2.7rem] w-[2.5rem] h-auto self-end mb-1"
+                            />
+                            <span
+                                class="uppercase font-bold text-[0.65rem] ml-4 leading-relaxed"
+                            >
+                                <span class="text-lg"> Экотрип </span>
+                                <br />
+                                Походы Сочи
+                            </span>
+                        </a>
+                        <p
+                            class="sm:text-lg sm:leading-extra-loose text-base leading-loose mb-14"
+                        >
+                            Экотрип - поставщик ярких впечатления на природе
+                            Сочи, Адлера и Красной Поляны!
+                        </p>
+                        <a class="sm:hidden text-base mb-4" href="#"
+                            >Отказ от ответственности</a
+                        >
+                        <a class="sm:hidden text-base" href="#"
+                            >Политика конфиденциальности</a
+                        >
+                    </div>
+                    <div class="sm:mb-14">
+                        <h6
+                            class="sm:mb-10 sm:text-xl text-lg text-primary-green font-bold uppercase mb-[3.65rem]"
+                        >
+                            Подписывайся!
+                        </h6>
+                        <div class="sm:flex-row sm:flex-wrap flex flex-col">
+                            <a
+                                href="#"
+                                class="sm:w-[50%] sm:text-lg flex flex-row gap-x-7 text-base items-center mb-10"
+                            >
+                                <img
+                                    src="/travels/assets/vk.1d5bd377.svg"
+                                    class="sm:h-9 sm:top-1.5 h-6 w-auto relative top-1"
+                                />
+                                Вконтакте
+                            </a>
+                            <a
+                                href="#"
+                                class="sm:w-[50%] sm:text-lg flex flex-row gap-x-7 text-base items-center mb-10"
+                            >
+                                <img
+                                    src="/travels/assets/tg.b42c100a.svg"
+                                    class="sm:h-8 h-6 w-auto"
+                                />
+                                Телеграм
+                            </a>
+                            <a
+                                href="#"
+                                class="sm:w-[50%] sm:text-lg sm:mb-0 flex flex-row gap-x-7 text-base items-center mb-10"
+                            >
+                                <img
+                                    src="/travels/assets/instagram.8b55ce1c.svg"
+                                    class="sm:h-8 h-6 w-auto"
+                                />
+                                Инстаграм
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sm:mb-14">
+                        <div
+                            class="sm:mb-10 flex flex-row flex-nowrap items-center gap-x-7 mb-[3.65rem]"
+                        >
+                            <h6
+                                class="sm:text-xl text-lg text-primary-green font-bold uppercase"
+                            >
+                                Контакты
+                            </h6>
+                            <div
+                                class="sm:hidden w-full bg-primary-green h-[1px]"
+                            ></div>
+                        </div>
+                        <div class="sm:flex-col flex flex-row">
+                            <div>
+                                <div class="sm:mb-8 flex flex-row mb-14">
+                                    <div
+                                        class="sm:hidden bg-white h-5 w-5 mr-6"
+                                    ></div>
+                                    <div>
+                                        <a
+                                            class="sm:text-xl sm:mb-8 block font-bold text-base mb-6"
+                                            href="tel:+79996550090"
+                                            >+7 (999) 655-00-90</a
+                                        >
+                                        <a
+                                            class="sm:text-xl block font-bold text-base"
+                                            href="tel:+79996550090"
+                                            >+7 (999) 655-00-90</a
+                                        >
+                                    </div>
+                                </div>
+                                <div class="flex flex-row">
+                                    <div
+                                        class="sm:hidden bg-white h-5 w-5 mr-6"
+                                    ></div>
+                                    <a
+                                        class="sm:text-xl sm:mb-8 block text-base mb-6"
+                                        href="mailto:ecotrip@mail.ru"
+                                        >ecotrip@mail.ru</a
+                                    >
+                                </div>
+                            </div>
+                            <div
+                                class="sm:ml-0 sm:max-w-none max-w-[18rem] ml-24"
+                            >
+                                <p
+                                    class="sm:text-lg sm:leading-extra-loose text-base leading-loose"
+                                >
+                                    Мы можем сами связаться с вами! Напишите
+                                    номер телефона и мы позвоним вам настолько
+                                    скоро, насколько сможем!
+                                </p>
+                                <div class="w-full mt-6 relative">
+                                    <input
+                                        class="sm:py-4 sm:text-lg block w-full bg-gray-2-bgc border text-base px-5 py-2 placeholder:text-gray-300 font-normal"
+                                        placeholder="введите номер"
+                                        type="text"
+                                    />
+                                    <img
+                                        src="/travels/assets/arrow.d8ce2563.svg"
+                                        class="hover:cursor-pointer w-6 h-auto absolute right-4 bottom-1/2 translate-y-1/2"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="sm:flex hidden flex-col border-t-[1px] border-primary-green pt-14"
+                    >
+                        <a class="text-lg mb-6" href="#"
+                            >Отказ от ответственности</a
+                        >
+                        <a class="text-lg" href="#"
+                            >Политика конфиденциальности</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- <footer>
       Работа с масштабом: <br>
       <input type="number" id="scale" class="text-black" />
     </footer> -->
-    <script src="/main.js"></script>
-  </body>
+        <script src="/main.js"></script>
+    </body>
 </html>

@@ -10,7 +10,8 @@
             type="image/svg"
     />
     
-  <link rel="stylesheet" href="/travels/assets/style.45f338de.css">
+  <script type="module" crossorigin src="/travels/assets/main.657ce8c2.js"></script>
+  <link rel="stylesheet" href="/travels/assets/style.c1e1c874.css">
 </head>
 <body class="overflow-x-hidden bg-gray-bgc">
 <header class="bg-center bg-tour-1-background bg-cover pt-18 pb-140">
@@ -55,11 +56,58 @@
                 Места
             </a>
             <a
-                    href="#"
+                    href="../../faq/"
                     class="sm:hidden ml-14 uppercase font-bold text-lg pt-1"
             >
-                О нас
+                Вопросы
             </a>
+
+            <input id="toggle" type="checkbox" class="hidden" />
+
+            <label for="toggle" class="sm:block hidden hamburger">
+                <div class="top-bun"></div>
+                <div class="meat"></div>
+                <div class="bottom-bun"></div>
+            </label>
+
+            <div class="sm:flex nav hidden flex-col gap-y-4 pr-16 justify-center text-right">
+                <a
+                        href="../../"
+                        class="uppercase font-bold text-3xl py-4"
+                >
+                    Главная
+                </a>
+                <a
+                        href="../../pvd/"
+                        class="uppercase font-bold text-3xl py-4"
+                >
+                    Походы
+                </a>
+                <a
+                        href="../../canyoning/"
+                        class="uppercase font-bold text-3xl py-4 text-primary-green"
+                >
+                    Каньонинг
+                </a>
+                <a
+                        href="../../speleo/"
+                        class="uppercase font-bold text-3xl py-4"
+                >
+                    Спелеотуризм
+                </a>
+                <a
+                        href="#"
+                        class="uppercase font-bold text-3xl py-4"
+                >
+                    Места
+                </a>
+                <a
+                        href="../../faq/"
+                        class="uppercase font-bold text-3xl py-4"
+                >
+                    Вопросы
+                </a>
+            </div>
         </nav>
 
         <p
@@ -85,18 +133,18 @@
         >
             Подпишись
             <div class="w-48 h-[1px] bg-white mx-5"></div>
-            <img
-                    src="/travels/assets/tg.b42c100a.svg"
-                    class="w-4 h-auto mr-5 -rotate-90"
-            />
-            <img
-                    src="/travels/assets/instagram.8b55ce1c.svg"
-                    class="w-4 h-auto mr-5 -rotate-90"
-            />
-            <img
-                    src="/travels/assets/vk.1d5bd377.svg"
-                    class="w-4 h-auto -rotate-90"
-            />
+            <a href="https://t.me/ecotripsochi" target="_blank">
+                <img
+                        src="/travels/assets/tg.b42c100a.svg"
+                        class="w-4 h-auto mr-5 -rotate-90"
+                />
+            </a>
+            <a href="https://vk.com/ecotripsochi" target="_blank">
+                <img
+                        src="/travels/assets/vk.1d5bd377.svg"
+                        class="w-4 h-auto -rotate-90"
+                />
+            </a>
         </div>
     </div>
 </header>
@@ -156,37 +204,51 @@
                 </p>
             </article>
             <article
-                    class="sm:grid-cols-2 sm:mb-0 grid grid-cols-3 gap-x-6 gap-y-7 mb-24"
+                    class="overflow-hidden"
             >
-                <div
-                        class="sm:h-70 w-full h-106 bg-[url('/src/assets/images/tour-1-asset-1.png')] bg-center bg-cover rounded-md"
-                ></div>
-                <div
-                        class="sm:h-70 w-full h-106 bg-[url('/src/assets/images/tour-1-asset-2.png')] bg-center bg-cover rounded-md"
-                ></div>
-                <div
-                        class="sm:h-70 w-full h-106 bg-[url('/src/assets/images/tour-1-asset-3.png')] bg-center bg-cover rounded-md"
-                ></div>
-                <div
-                        class="sm:h-70 w-full h-106 bg-[url('/src/assets/images/tour-1-asset-4.png')] bg-center bg-cover rounded-md"
-                ></div>
-                <div
-                        class="sm:h-70 w-full h-106 bg-[url('/src/assets/images/tour-1-asset-5.png')] bg-center bg-cover rounded-md"
-                ></div>
-                <div
-                        class="sm:h-70 w-full h-106 bg-[url('/src/assets/images/tour-1-asset-6.png')] bg-center bg-cover rounded-md"
-                ></div>
+                <div class="gallery2 gallery2_tour1 sm:mb-0 transition-transform grid grid-flow-col auto-cols-[calc(33%-1rem)] sm:auto-cols-[calc(50%-0.75rem)] grid-rows-2 sm:grid-rows-3 gap-x-6 gap-y-7">
+                    <div
+                            class="sm:h-70 w-full h-106 bg-[url('/src/assets/images/tour-1-asset-1.png')] bg-center bg-cover rounded-md"
+                    ></div>
+                    <div
+                            class="sm:h-70 w-full h-106 bg-[url('/src/assets/images/tour-1-asset-2.png')] bg-center bg-cover rounded-md"
+                    ></div>
+                    <div
+                            class="sm:h-70 w-full h-106 bg-[url('/src/assets/images/tour-1-asset-3.png')] bg-center bg-cover rounded-md"
+                    ></div>
+                    <div
+                            class="sm:h-70 w-full h-106 bg-[url('/src/assets/images/tour-1-asset-4.png')] bg-center bg-cover rounded-md"
+                    ></div>
+                    <div
+                            class="sm:h-70 w-full h-106 bg-[url('/src/assets/images/tour-1-asset-5.png')] bg-center bg-cover rounded-md"
+                    ></div>
+                    <div
+                            class="sm:h-70 w-full h-106 bg-[url('/src/assets/images/tour-1-asset-6.png')] bg-center bg-cover rounded-md"
+                    ></div>
+                    <div
+                            class="sm:h-70 w-full h-106 bg-[url('/src/assets/images/tour-1-asset-7.png')] bg-center bg-cover rounded-md"
+                    ></div>
+                    <div
+                            class="sm:h-70 w-full h-106 bg-[url('/src/assets/images/tour-1-asset-8.png')] bg-center bg-cover rounded-md"
+                    ></div>
+                    <div
+                            class="sm:h-70 w-full h-106 bg-[url('/src/assets/images/tour-1-asset-9.png')] bg-center bg-cover rounded-md"
+                    ></div>
+                    <div
+                            class="sm:h-70 w-full h-106 bg-[url('/src/assets/images/tour-1-asset-10.png')] bg-center bg-cover rounded-md"
+                    ></div>
+                </div>
             </article>
             <div
-                    class="sm:flex sm:flex-row sm:self-start sm:ml-0 sm:mr-0 sm:gap-x-9 sm:mt-4 sm:mb-18 hidden"
+                    class="flex-row self-start ml-0 mr-0 gap-x-9 mt-4 mb-18 flex"
             >
                 <img
                         src="/travels/assets/up-arrow.c7b40ec2.svg"
-                        class="sm:-rotate-90 sm:w-9 w-6 h-auto hover:cursor-pointer"
+                        class="gallery2_tour1-left -rotate-90 sm:w-9 w-6 h-auto hover:cursor-pointer"
                 />
                 <img
                         src="/travels/assets/bottom-arrow.feebaa65.svg"
-                        class="sm:-rotate-90 sm:w-9 w-6 h-auto hover:cursor-pointer"
+                        class="gallery2_tour1-right -rotate-90 sm:w-9 w-6 h-auto hover:cursor-pointer"
                 />
             </div>
             <article class="mb-24">
@@ -472,7 +534,7 @@
                 </h6>
                 <div class="sm:flex-row sm:flex-wrap flex flex-col">
                     <a
-                            href="#"
+                            href="https://vk.com/ecotripsochi" target="_blank"
                             class="sm:w-[50%] sm:text-lg flex flex-row gap-x-7 text-base items-center mb-10"
                     >
                         <img
@@ -482,7 +544,7 @@
                         Вконтакте
                     </a>
                     <a
-                            href="#"
+                            href="https://t.me/ecotripsochi" target="_blank"
                             class="sm:w-[50%] sm:text-lg flex flex-row gap-x-7 text-base items-center mb-10"
                     >
                         <img
@@ -490,16 +552,6 @@
                                 class="sm:h-8 h-6 w-auto"
                         />
                         Телеграм
-                    </a>
-                    <a
-                            href="#"
-                            class="sm:w-[50%] sm:text-lg sm:mb-0 flex flex-row gap-x-7 text-base items-center mb-10"
-                    >
-                        <img
-                                src="/travels/assets/instagram.8b55ce1c.svg"
-                                class="sm:h-8 h-6 w-auto"
-                        />
-                        Инстаграм
                     </a>
                 </div>
             </div>
@@ -587,6 +639,6 @@
 Работа с масштабом: <br>
 <input type="number" id="scale" class="text-black" />
 </footer> -->
-<script src="/main.js"></script>
+
 </body>
 </html>
